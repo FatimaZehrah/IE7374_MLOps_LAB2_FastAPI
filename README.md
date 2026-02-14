@@ -88,27 +88,8 @@ Deploy a machine learning classification model as a web service that:
 
 ## Project Architecture
 
-IE7374_MLOps_LAB2_FastAPI/
-│
-├── src/
-│ ├── train.py # Model training script
-│ ├── predict.py # Prediction logic
-│ ├── data.py # Pydantic schemas
-│ └── main.py # FastAPI application
-│
-├── model/
-│ └── iris_model.pkl # Serialized trained model
-│
-├── test/
-│ └── test_api_logic.py # Unit tests
-│
-├── .github/
-│ └── workflows/
-│ └── pytest_action.yml # CI pipeline
-│
-├── requirements.txt
-├── .gitignore
-└── README.md
+<img width="495" height="792" alt="image" src="https://github.com/user-attachments/assets/bb68e259-3abe-4ba7-bf3f-8ea475e1a57c" />
+
 
 Custom Enhancements Implemented
 
