@@ -111,14 +111,21 @@ CI validation using GitHub Actions
 
 Follow these steps to run the FastAPI service:
 
-### 1️⃣ Clone the Repository
+##1️⃣ Clone the Repository
 
 ```bash
 git clone <repository_link>
 cd IE7374_MLOps_LAB2_FastAPI
+## 2️⃣ Create and Activate Virtual Environment
 python -m venv lab_02_env
 lab_02_env\Scripts\activate
+## 3️⃣ Install Dependencies
 pip install -r requirements.txt
+## 4️⃣ Train the Model (if needed)
+python src/train.py
+## 5️⃣ Start the FastAPI Server
+uvicorn src.main:app --reload
+## 6️⃣ Open API Documentation
 uvicorn src.main:app --reload
 http://127.0.0.1:8000/docs
   
