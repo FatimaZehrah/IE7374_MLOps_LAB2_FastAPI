@@ -199,7 +199,7 @@ Follow these steps to run the FastAPI service on your machine.
 
 ```bash
 git clone <your-repository-link>
-cd IE7374_MLOps_LAB2_FastAPI
+cd MLOps_LAB2_FastAPI
 ```
 
 ### 2. Create and Activate a Virtual Environment
